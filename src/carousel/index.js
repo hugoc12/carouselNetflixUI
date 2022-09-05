@@ -13,6 +13,7 @@ export default function Corousel(){
     
 
     function nextSlide(event){
+        console.log('NEXT');
 
         if(section == 0){ //SECTION 0 >>> SECTION 1
             cont = 0;
