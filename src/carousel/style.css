@@ -1,0 +1,80 @@
+.corousel{
+    margin-top: 20px;
+    height: 250px;
+    width: 100%;
+    background-color: #112B3C;
+
+    overflow: hidden;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    flex-basis: 200px;
+    flex-shrink: 0;
+    margin:0 45px;
+    height: 250px;
+    background-color: #F66B0E;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+
+    transition: 1s;
+}
+
+.btt{
+    display: block;
+    width: 120px;
+    height: 100%;
+    border: none;
+    outline: none;
+
+    position: absolute;
+
+    background-color: rgba(204, 204, 204, 0.5);
+    color: #fff;
+
+    z-index: 1;
+}
+
+.btt:hover{
+    cursor: pointer;
+    background-color: rgba(204, 204, 204, 0.8);
+}
+
+.btt:active{
+    cursor: pointer;
+    background-color: rgba(204, 204, 204, 1);
+}
+
+.bttPrev{
+    left: 0%;
+}
+
+.bttNext{
+    right: 0%;
+}
+
+.slideSections{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.section{
+    width: 10px;
+    height: 10px;
+    background-color: #205375;
+    margin: 0px 5px;
+    border-radius: 100%;
+}
